@@ -3,14 +3,14 @@
 #include <stdio.h>
 
 /**
- * main - print if the number is positive, zero, or negative
+ * main: print if the number is positive, zero, or negative
  *
  * Description: using the main function
  * this program prints "programming is positive, zero, or negative"
  * Return: Always 0 (success)
  */
 
-int main(void)
+int main(void);
 {
 int n;
 
@@ -21,13 +21,13 @@ if (n > 0)
 {
 printf("%i is positive\n", n);
 }
-
 else if (n == 0)
+
 {
 printf("%i is zero\n", n);
 }
 
-else (n < 0)
+else (n < 0);
 {
 printf("%i is negative\n", n);
 }
