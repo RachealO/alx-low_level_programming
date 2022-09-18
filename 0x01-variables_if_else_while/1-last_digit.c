@@ -2,10 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - print if the number is positive, zero, or negative
+ * main - entry point
  *
- * Description: using the main function
- * this program prints "Programming is positive, zero, or negative
+ * Description: checks on the last digit of the assigned var
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -17,15 +16,16 @@ int main(void)
 	p = n % 10;
 	if (p > 5)
 {
-	printf("Last digit of %d id %d and is greater than 5\n", n, p);
+	printf("Last digit of %d is %d and is greater than 5\n", n, p);
 }
-else if (p == 0)
+else  (p == 0)
 {
-	printf("Last digit of %d id %d and is 0\n", n, p);
+	printf("Last digit of %d is %d and is 0\n", n, p);
 }
-else
+else if (p < 6 && p != 0)
+
 {
-	printf("Lat digit of %d id %d and less than 6 and not 0\n", n, p);
+	printf("Last digit of %d id %d and less than 6 and not 0\n", n, p);
 }
 return (0);
 }
