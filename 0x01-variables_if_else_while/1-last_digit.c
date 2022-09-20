@@ -24,7 +24,7 @@ else if (p < 6 && p != 0)
 }
 else if (p == 0)
 {
-        printf("Last digit of %d is %d and is 5\n", n, p);
+        printf("Last digit of %d is %d and is 0\n", n, p);
 }
 return (0);
 }
